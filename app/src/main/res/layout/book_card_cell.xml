@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        app:cardElevation="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/cover"
+                app:cardCornerRadius="15dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                app:cardElevation="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/beforeyouleap"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/cover"
+                android:focusable="true" />
+            <TextView
+                android:id="@+id/title"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/text_place_holder"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:lines="3"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/author"
+                android:textColor="@color/darkGray"
+                android:textSize="16sp"
+                android:lines="3"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Favorite Books</string>
+    <string name="cover">when you leap</string>
+    <string name="text_place_holder">Text Place Holder</string>
+    <string name="author">Author</string>
+    <string name="description">description</string>
+</resources>
